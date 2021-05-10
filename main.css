@@ -6,26 +6,36 @@ body {
 p{
     text-align: left;
     margin: auto;
-    
-
+    line-height: 2;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h2{
     text-align: center;
     padding-top: 1%;
     font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
 }
 
 h5{
     padding-top: 5%;
+    font-family: 'Quicksand', sans-serif;
 }
 
-/* Add a black background color to the top navigation */
+li{
+    margin-top: 10px;
+}
+
 .topnav{
     text-align: center;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 10px;
     top: 0%;
+   
     
 }
   
@@ -55,14 +65,16 @@ h5{
     border: none;
     height: 100px;
     width: 150px;
+    text-align: center;
 }
 
 img{
-    height: 90%;
-    width: 95%;
+    height: 50%;
+    width: 100%;
     border: 2px solid black;
     border-spacing: 15px 50px;
     border-radius: 25px;
+    
 }
 /*greeting title*/
 .hello{
@@ -71,24 +83,30 @@ img{
     font-size: 50px;
 }
 
-/*project tags*/
-.bullet {
+.bullet{
     display: inline;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: black;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    background: black;
     color: white;
-    padding-top: 5px;
-}
+    margin-right: 5px;
+    text-transform: uppercase;
+} 
 
-.proj1 {
+
+/*project tags*/
+
+.projects {
+
+margin-top: 20px;
 border: 2px solid grey;
-padding-top: 1%;
-padding-left: 1%;
-margin-left: 2%;
-margin-right: 2%;
-margin-bottom: 20px;
+padding: 10px 20px;
+margin-left: 5%;
+margin-right: 5%;
 border-radius: 25px;
 padding-bottom: 10px;
 
